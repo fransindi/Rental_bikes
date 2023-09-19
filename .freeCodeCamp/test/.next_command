@@ -68,3 +68,4 @@ __vsc_prompt_cmd_original
 ./bike-shop.sh
 ./bike-shop.sh
 __vsc_prompt_cmd_original
+[[ a =~ [0-9] ]]
