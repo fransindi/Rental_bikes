@@ -142,3 +142,7 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 pg_dump -U freecodecamp -d postgres -f rental_dump.sql
 git status
 git add .
+git commit -m 'fin del proyecto'
+git remote add origin https://github.com/fransindi/Rental_bikes.git
+git push -u origin master
+git add .
