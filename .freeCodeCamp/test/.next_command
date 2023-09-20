@@ -91,3 +91,4 @@ git add
 git add .
 git commit -m '55% de progreso'
 ./bike-shop.sh
+__vsc_prompt_cmd_original
