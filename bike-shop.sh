@@ -89,7 +89,7 @@ RENT_MENU() {
 
 
 RETURN_MENU() {
-    echo 'Return Menu'
+  
 
 }
 
