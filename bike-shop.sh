@@ -98,6 +98,7 @@ RETURN_MENU() {
     then
     
     #send to main menu
+    MAIN_MENU "I could not find a record for that phone number."
     fi
 }
 
