@@ -103,7 +103,7 @@ RETURN_MENU() {
     else    
         #get customer's rentals
         CUSTOMER_RENTALS=$($PSQL "select bike_id, type, size from bikes inner join rentals using(bike_id) inner join customers using(customer_id) where phone = '$PHONE_NUMBER' and date_returned is null order by bike_id")
-        echo "$CUSTOMER_RENTALS"
+        
         #if no rentals
         if [[ -z $CUSTOMER_RENTALS ]]
         then
@@ -112,6 +112,7 @@ RETURN_MENU() {
         else
             #display rented bikes
             echo -e '\nHere are your rentals:'
+            echo "$CUSTOMER_RENTALS"
             #ask for bike to return
             #if not a number
             #send to main menu
