@@ -89,3 +89,4 @@ pg_dump -U freecodecamp -d postgres -f rental.sql
 git status
 git add
 git add .
+git commit -m '55% de progreso'
